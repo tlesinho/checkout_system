@@ -1,14 +1,16 @@
 package com.tles.usserbayev;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
+// Scans products. Checkout gets promotions and calculates the total.
 public class Checkout {
 
     private HashMap<String, Integer> shoppingCart = new HashMap<>();
     private Products products;
-    private PricingRules pricingRules;
+    public ArrayList<Promotion> pricingRules;
 
-    public Checkout(PricingRules pricingRules) {
+    public Checkout(ArrayList<Promotion> pricingRules) {
 
         products = new Products();
         this.pricingRules = pricingRules;
@@ -32,9 +34,21 @@ public class Checkout {
             sum = sum + products.getPrice(entry.getKey()) * entry.getValue();
         }
 
-        sum = sum + pricingRules.calculateDiscount(shoppingCart);
+        for (Promotion promotion : pricingRules
+             ) {
+            sum = sum - promotion.calculateDiscount(shoppingCart, products);
+
+        }
 
 
         return sum;
+    }
+
+    public void clearShoppingCart() {
+        shoppingCart.clear();
+    }
+
+    public void updatePricingRules(ArrayList<Promotion> pricingRules) {
+        this.pricingRules = pricingRules;
     }
 }
