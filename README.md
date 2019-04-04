@@ -21,5 +21,4 @@ To demostrate the functionality the main class is added. Descriptions of each me
 
 Possible improvements:
 1. Save everything in SQLite database not in Hashmap.
-2. No the system assumes that user who manages promotions does not make any mistakes. For example, it is possible to have both 
-"buy 1 get 1" and "buy 1 get 2" promotions for the same product. Adding some checking might help.
+2. Now the system assumes that user who manages promotions does not make any mistakes. For example, it is possible to have both "buy 1 get 1" and "buy 1 get 2" promotions for the same product. Adding some checking might help.
