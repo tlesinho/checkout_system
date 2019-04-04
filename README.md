@@ -7,7 +7,7 @@ The system emulates the work of supermarket checkout system. Various promotions 
 2. Buy product X in quantity more than Y and get products at discounted price.
 3. Buy N number of products and get M number of the same products for free.
 
-To demostrate the functionality the main class is added. Descriptions of each manu items:
+To demostrate the functionality the main class is added. Descriptions of each menu items:
 
 "1". Scan the items given in the example of BC Group Test and see results. Note that the case 4 is not from the test examples.
 
