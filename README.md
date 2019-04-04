@@ -2,13 +2,13 @@
 BC Group Assessment Test. Implemented in Java using IntelliJ IDEA. 
 
 
-Supermarket Checkout System with Promotions
+# Supermarket Checkout System with Promotions
 The system emulates the work of supermarket checkout system. Various promotions can be added. There are three types of promotions:
 1. Buy product X get product Y for free.
 2. Buy product X in quantity more than Y and get products at discounted price.
 3. Buy N number of products and get M number of the same products for free.
 
-To demostrate the functionality the main class is added. Descriptions of each menu items:
+# To demostrate the functionality the main class is added. Descriptions of each menu items:
 
 "1". Scan the items given in the example of BC Group Test and see results. Note that the case 4 is not from the test examples. See below all the test cases.
 
@@ -20,12 +20,12 @@ To demostrate the functionality the main class is added. Descriptions of each me
 
 "5". Exit
 
-Possible improvements:
+# Possible improvements:
 1. Save everything in SQLite database not in Hashmap.
 2. Now the system assumes that user who manages promotions does not make any mistakes. For example, it is possible to have both "buy 1 get 1" and "buy 1 get 2" promotions for the same product. Adding some checking might help.
 
 ______________________________________________________________________________________________________
-Test cases provided by the task and one additional case:
+# Test cases provided by the task and one additional case:
 
 Case 1: SKUs Scanned: atv, atv, atv, vga. Total expected: $249.00
 
