@@ -1,6 +1,6 @@
 # checkout_system
 Supermarket Checkout System with Promotions
-The system emulates the work of supermarket checkout system. Various promotions can be added. There are three promotions:
+The system emulates the work of supermarket checkout system. Various promotions can be added. There are three types of promotions:
 1. Buy product X get product Y for free.
 2. Buy product X in quantity more than Y and get products at discounted price.
 3. Buy N number of products and get M number of the same products for free.
