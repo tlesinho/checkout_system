@@ -8,10 +8,15 @@ The system emulates the work of supermarket checkout system. Various promotions 
 3. Buy N number of products and get M number of the same products for free.
 
 To demostrate the functionality the main class is added. Descriptions of each manu items:
+
 "1". Scan the items given in the example of BC Group Test and see results. Note that the case 4 is not from the test examples.
+
 "2". List all promotions that are now used.
+
 "3". Remove the first promotion. Hint: press "1" again to see the difference in case 3.
+
 "4". Add promotion: buy 3 or more VGA and get them at price 20.0. Hint: press "1" again to see the difference in case 4.
+
 "5". Exit
 
 Possible improvements:
