@@ -26,6 +26,7 @@ Possible improvements:
 
 ______________________________________________________________________________________________________
 Test cases provided by the task and one additional case:
+
 Case 1: SKUs Scanned: atv, atv, atv, vga. Total expected: $249.00
 
 Case 2: SKUs Scanned: atv, ipd, ipd, atv, ipd, ipd, ipd. Total expected: $2718.95
