@@ -2,6 +2,9 @@ package com.tles.usserbayev;
 
 import java.util.HashMap;
 
+// This class is not used anymore. This is implementation of original promotions. Cannot change
+// promotions quickly
+
 public class PricingRules {
     public double calculateDiscount(HashMap<String, Integer> shoppingCart) {
         double totalDiscount = 0.0;
