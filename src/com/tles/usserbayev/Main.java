@@ -3,6 +3,8 @@ package com.tles.usserbayev;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import static javafx.application.Platform.exit;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -23,11 +25,10 @@ public class Main {
 
         // Menu to demonstrate the system
         int option = 0;
-        while (option != -1) {
+        while (option != 5) {
             option = showMenu();
             switch (option) {
                 case 1:
-
                     //Case 1: atv, atv, atv, vga: 249.0
                     co.scan("atv");
                     co.scan("atv");
@@ -85,6 +86,9 @@ public class Main {
                     pricingRules = promotionsManager.getAllPromotions();
                     co.updatePricingRules(pricingRules);
                     break;
+                case 5:
+                    exit();
+                    break;
 
                 default:
                     System.out.println("Sorry, please enter valid input");
@@ -97,15 +101,19 @@ public class Main {
 
         int option = 0;
         Scanner keyboard = new Scanner(System.in);
+
         System.out.println("\nMenu:");
         System.out.println("-------------------------------------");
+
         System.out.println("1. Scan products shown in the task");
         System.out.println("2. Promotions list");
         System.out.println("3. Remove Example: Remove Promotion 1");
         System.out.println("4. Add Promotion Example");
+        System.out.println("5. Exit");
 
         System.out.println("--------------");
         System.out.println("Enter your choice:");
+
         option = keyboard.nextInt();
 
         return option;
