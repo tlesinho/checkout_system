@@ -1,5 +1,6 @@
 # checkout_system
 BC Group Assessment Test. Implemented in Java using IntelliJ IDEA. 
+
 Supermarket Checkout System with Promotions
 The system emulates the work of supermarket checkout system. Various promotions can be added. There are three types of promotions:
 1. Buy product X get product Y for free.
